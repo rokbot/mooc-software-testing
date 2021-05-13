@@ -8,8 +8,10 @@ public class NumFinderMain {
         // this works
         // nf.find(new int[] {4, 25, 7, 9});
 
-        // this crashes
+        // this works
         nf.find(new int[] {4, 3, 2, 1});
+        // edge cases crash
+        // nf.find(null);
 
         System.out.println(nf.getLargest());
         System.out.println(nf.getSmallest());
